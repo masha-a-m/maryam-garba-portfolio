@@ -174,9 +174,9 @@ const Navbar = () => {
             </button>
             {isServicesOpen && (
               <div className="mt-4 space-y-4 text-center">
-                <NavLink to="/uiux" className="block py-2 hover:text-gray-400" onClick={() => setIsOpen(false)}>UI/UX Designs</NavLink>
-                <NavLink to="/blog" className="block py-2 hover:text-gray-400" onClick={() => setIsOpen(false)}>Blog</NavLink>
-                <NavLink to="/author-site" className="block py-2 hover:text-gray-400" onClick={() => setIsOpen(false)}>Author Site</NavLink>
+                <NavLink to="https://maryamgarba.framer.website/" className="block py-2 hover:text-gray-400" onClick={() => setIsOpen(false)}>UI/UX Designs</NavLink>
+                <NavLink to="https://theintrovertedreader.home.blog/" className="block py-2 hover:text-gray-400" onClick={() => setIsOpen(false)}>Blog</NavLink>
+                <NavLink to="https://laescritorainquisitiva.wordpress.com/" className="block py-2 hover:text-gray-400" onClick={() => setIsOpen(false)}>Author Site</NavLink>
               </div>
             )}
              </div>
