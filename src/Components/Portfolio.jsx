@@ -13,14 +13,14 @@ import Project10Img from '../Components/assets/tell-a-joke-api.png';
 
 const Portfolio = () => {
   return (
-      <div className="container mx-auto text-center mt-20">
+      <div className="container mx-auto text-center py-40">
 
         
         {/* Section Title */}
         <h2 className="text-4xl font-bold mb-20">PORTFOLIO</h2>
         
         {/* Project 1 */}
-        <div className="flex flex-col lg:flex-row items-center justify-center mx-auto md:justify-between mb-56">
+        <div className="flex flex-col lg:flex-row items-center justify-center mx-auto md:justify-between mb-40">
           
           {/* Project Image - Left */}
           <div className="w-full lg:w-1/2">
@@ -64,7 +64,7 @@ const Portfolio = () => {
         </div>
 
         {/* Project 2 */}
-        <div className="flex flex-col md:flex-row-reverse items-center justify-center mb-56 md:mr-20">
+        <div className="flex flex-col md:flex-row-reverse items-center justify-center mb-40 md:mr-20">
           
           {/* Project Image - Right */}
           <div className="w-full ">
@@ -109,7 +109,7 @@ const Portfolio = () => {
         </div>
 
         {/* Project 3 */}
-        <div className="flex flex-col lg:flex-row items-center justify-center mx-auto lg:justify-between mb-56">
+        <div className="flex flex-col lg:flex-row items-center justify-center mx-auto lg:justify-between mb-40">
           
           {/* Project Image - Left */}
           <div className="w-full lg:w-1/2">
@@ -153,7 +153,7 @@ const Portfolio = () => {
         </div>
 
         {/* Project 4 */}
-        <div className="flex flex-col lg:flex-row items-center justify-center mx-auto lg:justify-between mb-56">
+        <div className="flex flex-col lg:flex-row items-center justify-center mx-auto lg:justify-between mb-40">
           
           {/* Project Image - Left */}
           <div className="w-full lg:w-1/2">
@@ -197,7 +197,7 @@ const Portfolio = () => {
         </div>
 
          {/* Project 5 */}
-        <div className="flex flex-col md:flex-row-reverse items-center justify-center mb-56 md:mr-20">
+        <div className="flex flex-col md:flex-row-reverse items-center justify-center mb-40 md:mr-20">
           
           {/* Project Image - Right */}
           <div className="w-full ">
@@ -241,7 +241,7 @@ const Portfolio = () => {
         </div>
         
         {/* Project 6 done*/}
-        <div className="flex flex-col md:flex-row-reverse items-center justify-center mb-56 md:mr-20">
+        <div className="flex flex-col md:flex-row-reverse items-center justify-center mb-40 md:mr-20">
           
           {/* Project Image - Right */}
           <div className="w-full ">
@@ -285,7 +285,7 @@ const Portfolio = () => {
         </div>
 
         {/* Project 7 */}
-        <div className="flex flex-col lg:flex-row items-center justify-center mx-auto lg:justify-between mb-56">
+        <div className="flex flex-col lg:flex-row items-center justify-center mx-auto lg:justify-between mb-40">
           
           {/* Project Image - Left */}
           <div className="w-full lg:w-1/2">
@@ -329,7 +329,7 @@ const Portfolio = () => {
         </div>
 
         {/* Project 8 done*/}
-        <div className="flex flex-col md:flex-row-reverse items-center justify-center mb-56 md:mr-20">
+        <div className="flex flex-col md:flex-row-reverse items-center justify-center mb-40 md:mr-20">
           
           {/* Project Image - Right */}
           <div className="w-full ">
@@ -373,7 +373,7 @@ const Portfolio = () => {
         </div>
 
         {/* Project 9 done*/}
-        <div className="flex flex-col lg:flex-row items-center justify-center mx-auto lg:justify-between mb-56">
+        <div className="flex flex-col lg:flex-row items-center justify-center mx-auto lg:justify-between mb-40">
           
           {/* Project Image - Left */}
           <div className="w-full lg:w-1/2">
@@ -417,7 +417,7 @@ const Portfolio = () => {
         </div>
         
         {/* Project 10 done*/}
-        <div className="flex flex-col md:flex-row-reverse items-center justify-center mb-56 md:mr-20">
+        <div className="flex flex-col md:flex-row-reverse items-center justify-center mb-40 md:mr-20">
           
           {/* Project Image - Right */}
           <div className="w-full ">
