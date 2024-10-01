@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-md fixed w-full z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-4 lg:px-8">
-        <div className="flex justify-between h-1">
+        <div className="flex justify-between h-16">
           {/* Left side - Brand Name */}
           <div className="flex items-center ">
             <NavLink to="/" className="text-2xl font-bold text-gray-800">
