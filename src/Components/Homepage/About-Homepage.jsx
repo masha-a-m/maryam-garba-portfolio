@@ -6,7 +6,7 @@ import aboutImg from '../assets/about.webp';
 
 const AboutHomepage = () => {
   return (
-    <section className="bg-gray-50">
+    <section>
         {/* About Section */}
           <div className="about-section flex flex-col items-center justify-center lg:flex-row lg:space-x-12 md:mt-40">
             <div className="left-side md:ml-40">

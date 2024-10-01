@@ -9,7 +9,7 @@ import Project4Img from '../assets/tell-a-joke-api.png';
 
 const PortfolioHomepage = () => {
   return (
-    <section className="bg-gray-50">
+    <section>
         {/* Portfolio Section */}
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 md:mt-40">
         

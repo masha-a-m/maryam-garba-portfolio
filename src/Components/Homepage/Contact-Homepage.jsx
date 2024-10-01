@@ -5,7 +5,7 @@ const Contact = () => {
     <section className="bg-gray-50">
 
         {/* Contact Section */}
-        <section class="px-10 md:px-56 md:py-16 bg-white text-center mt-40 md:mt-40">
+        <section class="px-10 md:px-56 md:py-16 text-center mt-40 md:mt-40">
        
         <h2 class="font-bold text-lg mb-4 text-left text-blue-700 ml-6 uppercase">Contact</h2>
 
