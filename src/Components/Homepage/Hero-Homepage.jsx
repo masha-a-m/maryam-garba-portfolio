@@ -18,7 +18,7 @@ import profileImage from '../assets/profile img.webp';
 
 const Hero = () => {
   return (
-    <section>
+    <section className="py-20">
       <div className="flex flex-col md:flex-row items-center justify-center md:mx-auto lg:space-y-8 lg:flex-row lg:space-x-12 py-10 ">
         
         {/* Left Side */}
