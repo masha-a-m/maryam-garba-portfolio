@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Router>
       <Navbar />
-      <div className=" md:pt-0 bg-gray-50"> {/* Padding to prevent content being hidden behind the fixed navbar */}
+      <div className="bg-gray-50"> {/* Padding to prevent content being hidden behind the fixed navbar */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
