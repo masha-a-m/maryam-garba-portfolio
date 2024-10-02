@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+budy, html {
+  overflow-x: hidden;
+}
 /* Custom Blob Animation */
 .blob-animation {
   animation: blob 7s infinite;
 }
+
+
 
 @keyframes blob {
   0% {
