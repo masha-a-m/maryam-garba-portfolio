@@ -61,7 +61,7 @@ const ContactForm = () => {
     if (!validate()) return;
 
     try {
-      await axios.post('https://formspree.io/f/YOURENDPOINT',  formData, {
+      await axios.post('https://formspree.io/f/xjkrrgnn',  formData, {
         headers: {
           'Content-Type': 'application/json',
         },
