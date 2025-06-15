@@ -221,7 +221,7 @@ const About = () => {
   </p>
 
   {/* Call to Action */}
-  <div class="text-center mb-12 mt-28 text-[#b18165] text-xl underline hover:text-[#a16d50] transition">
+  <div className="text-center mb-12 mt-28 text-[#b18165] text-xl underline hover:text-[#a16d50] transition">
   <button onClick={() => setShowModal(true)} className="open-modal-btn" id="modalBtn">
         Let’s Bring Your Idea To Life
       </button>
