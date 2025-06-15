@@ -72,7 +72,7 @@ const Navbar = () => {
               About
             </NavLink>
 
-            {/* Other Services with Dropdown */}
+            {/* Other Services with Dropdown here*/}
             <div
               className="relative"
               onMouseEnter={() => setIsServicesOpen(true)}
