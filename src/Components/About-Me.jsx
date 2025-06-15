@@ -228,7 +228,7 @@ const About = () => {
 
       {showModal && <ContactModal onClose={() => setShowModal(false)} />}
   </div>
-</section>
+      </section>
       </div>
       );
       };

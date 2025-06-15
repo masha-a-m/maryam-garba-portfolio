@@ -74,11 +74,6 @@ const ContactModal = () => {
 
   return (
     <>
-      {/* Trigger Button */}
-      <button className="open-modal-btn" onClick={() => setShowModal(true)}>
-        Let’s Work Together
-      </button>
-
       {/* Overlay Modal */}
       {showModal && (
         <div id="overlayModal" ref={modalRef} className="modal-overlay show">
