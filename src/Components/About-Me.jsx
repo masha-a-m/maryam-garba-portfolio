@@ -219,12 +219,8 @@ const About = () => {
           </p>
 
           {/* Call to Action */}
-          <div class="text-center mb-12 mt-28 text-[#b18165] text-xl underline hover:text-[#a16d50] transition">
-              <button className="open-modal-btn" id="modalBtn">
-                Let’s Bring Your Idea To Life
-              </button>
+          <Link to="/contact" className="text-center mb-12 mt-24 text-[#b18165] hover:text-[#a16d50] underline transition" id="modalBtn">Let's bring your ideas to life</Link>
 
-          </div>
       </section>
       </div>
       );
