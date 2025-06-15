@@ -10,7 +10,9 @@ body, html {
   animation: blob 7s infinite;
 }
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 @keyframes blob {
   0% {
