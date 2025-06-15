@@ -1,3 +1,4 @@
+/* Modal Styles */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -16,6 +17,16 @@
   visibility: visible;
 }
 
+.modal-overlay.show .modal-content {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.modal-bg {
+  background-color: #f5f0ed;
+  width: 100%;
+}
+
 .modal-content {
   background-color: white;
   padding: 24px;
@@ -28,11 +39,7 @@
   max-height: 90vh;
   overflow-y: auto;
   position: relative;
-}
-
-.modal-overlay.show .modal-content {
-  transform: translateY(0);
-  opacity: 1;
+  z-index: 10000;
 }
 
 .close-modal-btn {
@@ -43,4 +50,64 @@
   font-weight: bold;
   color: #555;
   cursor: pointer;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #3f3e3e;
+  box-shadow: 0 0 0 2px rgba(177, 129, 101, 0.2);
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-size: 13px;
+  margin-top: 4px;
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.input-error {
+  border-color: #ff4d4d !important;
+}
+
+/* Submit Button */
+.submit-container {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.submit-btn {
+  background-color: #272727;
+  color: white;
+  padding: 16px 26px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #a16d50;
 }
