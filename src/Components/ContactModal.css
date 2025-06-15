@@ -1,50 +1,216 @@
-.modal-overlay {
+/* modal */
+/* Trigger Button */
+.open-modal-btn {
+    color: #b18165;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 34px;
+    font-family: 'Dancing Script', cursive;
+    transition: background-color 0.3s ease;
+  }
+
+  .open-modal-btn:hover {
+    color: #a16d50;
+  }
+
+  /* Overlay Modal */
+  .modal-overlay {
     position: fixed;
-    top: 0;
+    top: 0; 
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0,0,0,0.6);
     display: flex;
-    align-items: flex-end;
+    overflow-y: auto; /* Allows scrolling if content overflows */
+    align-items: center; /* Start from bottom */
     justify-content: center;
     z-index: 9999;
     visibility: hidden;
-}
+  }
 
-.modal-overlay.show {
-    visibility: visible;
-}
-
-.modal-bg {
-    background-color: #f5f0ed;
-    width: 100%;
-}
-
-.modal-content {
-    background-color: white;
-    padding: 24px;
-    border-radius: 8px;
-    margin: 40px auto;
-    max-width: 1000px;
-    width: 90%;
-    transform: translateY(100%);
-    opacity: 0;
-    transition: transform 0.5s ease, opacity 0.3s ease;
-    max-height: 90vh;
-    overflow-y: auto;
-}
+  /* Show class toggled by JS */
+  .modal-overlay.show {
+      visibility: visible; 
+    }
 
 .modal-overlay.show .modal-content {
     transform: translateY(0);
-    opacity: 1;
+    opacity: 1;   
 }
 
-.close-modal-btn {
+    .modal-bg{
+    background-color: #f5f0ed;
+    width: 1400px;
+    }
+
+  .modal-content {
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+    border-radius: 8px;
+    background-color: transparent;
+    position: relative;
+    margin: 40px auto; /* Prevents sticking to top when scrolled */
+    width: 90%;
+    max-width: 1000px;
+    transform: translateY(100%); /* Start off-screen */
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.3s ease;
+        max-height: 90vh;
+        /* Limit height for scroll */
+        overflow-y: auto;
+        /* Scroll inside content only */
+    
+  }
+
+  /* Close Button */
+  .close-modal-btn {
     position: absolute;
     top: 16px;
     right: 24px;
     font-size: 24px;
     font-weight: bold;
     color: #555;
-    cursor: pointer; }
+    cursor: pointer;
+  }
+
+  h2.modal-title {
+    font-size: 24px;
+    color: #b18165;
+    margin-bottom: 20px;
+  }
+
+
+  label {
+    font-size: 14px;
+    font-weight: 300;
+    color: #333;
+    margin-bottom: 4px;
+    display: block;
+  }
+
+  label span.red {
+    color: red;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="url"],
+  input[type="date"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+
+  input:focus,
+  select:focus,
+  textarea:focus {
+    outline: none;
+    border: none;
+    border-color: #3f3e3e;
+    box-shadow: 0 0 0 2px rgba(177,129,101,0.2);
+  }
+
+  select {
+    color: #999;
+  }
+
+  input[type="date"]{
+    color: #999;
+  }
+
+  input::placeholder {
+      color: #999;
+      /* Light gray */
+      opacity: 1;
+  }
+  
+  .name, .mail, .business, .calender {
+    margin-bottom: 20px;
+  }
+
+  .calendar-icon input[type="date"], .fa-calendar {
+    cursor: pointer;
+  }
+
+  .project-type select {
+    cursor: pointer;
+  }
+
+  .form-group {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      margin-bottom: 20px;
+  }
+
+  .form-field {
+    display: grid;
+        grid-template-columns: 1fr;
+        gap: 8px;
+        margin-bottom: 20px;
+  }
+  @media (min-width: 768px) {
+      .form-group {
+          grid-template-columns: 1fr 1fr;
+      }
+  }
+
+  textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+
+
+  .error-message {
+      color: red;
+      font-size: 13px;
+      margin-top: 4px;
+      display: block;
+  }
+
+  .hidden {
+      display: none;
+  }
+
+  /* Red background for invalid fields */
+  .input-error {
+      border-color: #ff4d4d !important;
+      /* Red border */ 
+    }
+
+  .submit-container {
+    margin-top: 20px;
+    text-align: right;
+  }
+
+  .submit-btn {
+    background-color: #272727;
+    color: white;
+    padding: 16px 26px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .submit-btn:hover {
+    background-color: #a16d50;
+  }
+
+  input[type="date"] {
+      padding-right: 20px;
+      /* Space for calendar icon */
+      font-size: 16px;
+      cursor: pointer;
+  }
