@@ -7,7 +7,7 @@ const Contact = () => {
         {/* Contact Section */}
         <section class="px-10 md:px-56 md:py-16 text-center mt-40 md:mt-40">
        
-        <h2 class="font-bold text-lg mb-4 text-left text-blue-700 ml-6 uppercase">Contact</h2>
+        <h2 class="font-bold text-lg mb-4 text-left text-[#b18165] ml-6 uppercase">Contact</h2>
 
   
         <p class="text-2xl font-bold text-gray-600 mb-8 text-left ml-6">
@@ -22,7 +22,7 @@ const Contact = () => {
             <span class="text-2xl mr-2 items-center">✉️</span>
             <span class=" text-lg font-bold">Mail</span>
           </div>
-          <p class="ml-8 text-lg text-gray-700">escritoramaree@gmail.com</p>
+          <p class="ml-8 text-lg text-gray-700">whisperingcodes@gmail.com</p>
         </div>
         
         <div class="text-left invisible md:visible items-center ">
@@ -30,7 +30,7 @@ const Contact = () => {
             <span class="text-2xl mr-2 items-center">📍</span>
             <span class="text-lg font-bold">Location</span>
           </div>
-          <p class="ml-8 text-lg text-gray-700">Kaduna, Nigeria</p>
+          <p class="ml-8 text-lg text-gray-700">Kd, Nigeria</p>
         </div>
 
   

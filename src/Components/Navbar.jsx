@@ -7,7 +7,6 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); 
   const [isServicesOpen, setIsServicesOpen] = useState(false);
 
-  const activeClassName = "text-blue-500";
 
   return (
     <nav className="bg-white shadow-md fixed w-full z-10">
@@ -55,7 +54,7 @@ const Navbar = () => {
               to="/"
               className={({ isActive }) =>
                 `px-3 py-2 rounded-md text-md font-medium ${
-                  isActive ? activeClassName : "text-gray-700 hover:text-blue-500"
+                  isActive ? "text-[#b18165]" : "text-gray-500 hover:text-[#b18165] transition-colors duration-200"
                 }`
               }
             >
@@ -65,7 +64,8 @@ const Navbar = () => {
               to="/about"
               className={({ isActive }) =>
                 `px-3 py-2 rounded-md text-md font-medium ${
-                  isActive ? activeClassName : "text-gray-700 hover:text-blue-500"
+                  isActive ? "text-[#b18165]" : "text-gray-500 hover:text-[#b18165] transition-colors duration-200"
+                  
                 }`
               }
             >
@@ -78,7 +78,7 @@ const Navbar = () => {
               onMouseEnter={() => setIsServicesOpen(true)}
               onMouseLeave={() => setIsServicesOpen(false)}
             >
-              <button className="text-gray-700 hover:text-blue-500 px-3 py-2 rounded-md text-md font-medium flex items-center focus:outline-none">
+              <button className="text-gray-700 hover:text-[#b18165] px-3 py-2 rounded-md text-md font-medium flex items-center focus:outline-none">
                 Other Services
                 <svg
                   className="ml-1 h-4 w-4"
@@ -103,7 +103,15 @@ const Navbar = () => {
                     rel="noopener noreferrer"
                     className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                   >
-                    UI/UX
+                    UI/UX Services
+                  </a>
+                  <a
+                    href="https://www.whisperingcodes.com/wordpress"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+                  >
+                    Wordpress Services
                   </a>
                   <a
                     href="https://theintrovertedreader.home.blog/"
@@ -111,15 +119,7 @@ const Navbar = () => {
                     rel="noopener noreferrer"
                     className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                   >
-                    Blog
-                  </a>
-                  <a
-                    href="https://laescritorainquisitiva.wordpress.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
-                  >
-                    Author Site
+                    Book Blog
                   </a>
                 </div>
               )}
@@ -129,7 +129,7 @@ const Navbar = () => {
               to="/projects"
               className={({ isActive }) =>
                 `px-3 py-2 rounded-md text-md font-medium ${
-                  isActive ? activeClassName : "text-gray-700 hover:text-blue-500"
+                  isActive ? "text-[#b18165]" : "text-gray-500 hover:text-[#b18165] transition-colors duration-200"
                 }`
               }
             >

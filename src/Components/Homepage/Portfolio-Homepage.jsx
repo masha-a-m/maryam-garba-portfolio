@@ -15,7 +15,7 @@ const PortfolioHomepage = () => {
         
       {/* Section Title */}
       <div className="md:ml-60">
-      <h2 className="font-bold text-blue-500 mb-2 text-lg md:mt-0 mt-20 md:ml-0 ml-10">PORTFOLIO SAMPLES</h2>
+      <h2 className="font-bold text-[#b18165] mb-2 text-lg md:mt-0 mt-20 md:ml-0 ml-10">PORTFOLIO SAMPLES</h2>
       <p className="font-bold text-lg mb-12 md:ml-0 ml-10">Each project is a unique piece of work 🎈</p>
       </div>
       
@@ -199,7 +199,7 @@ const PortfolioHomepage = () => {
       <div className="md:flex justify-center">
         
         <h2 className="font-bold text-blue-700 cursor-pointer text-center">
-        <Link to="/projects">VIEW ALL PROJECTS</Link>
+        <Link to="/projects" className="text-[#b18165]">VIEW ALL PROJECTS</Link>
         </h2>
       </div>
         </div>

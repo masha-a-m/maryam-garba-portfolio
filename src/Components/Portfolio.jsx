@@ -17,7 +17,7 @@ const Portfolio = () => {
 
         
         {/* Section Title */}
-        <h2 className="text-4xl font-bold mb-20">PORTFOLIO</h2>
+        <h2 className="text-4xl text-[#b18165] font-bold mb-20">PORTFOLIO</h2>
         
         {/* Project 1 */}
         <div className="flex flex-col lg:flex-row items-center justify-center mx-auto md:justify-between mb-40">
@@ -459,6 +459,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
+        
         
        
        

@@ -10,7 +10,7 @@ const Footer = () => {
         <footer class="bg-gray-600 text-white md:py-20 py-10 text-center md:text-left">
           <div class="container mx-auto flex justify-around items-center">
            <div class="text-left">
-      <p class=" text-sm md:text-lg font-bold ml-10 md:ml-0">&copy; 2024. All rights reserved.</p>
+      <p class=" text-sm md:text-lg font-bold ml-10 md:ml-0">&copy; 2025. All rights reserved.</p>
            </div>
 
             <div class="flex space-x-6 invisible md:visible ">

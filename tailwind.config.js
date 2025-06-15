@@ -24,6 +24,9 @@ module.exports = {
       animation: {
         blob: 'blob 7s infinite',
       },
+      colors: {
+        'custom-beige': '#b18165',
+      }
     },
     screens: {
       xs: '480px',  // Extra small devices
