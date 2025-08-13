@@ -1,15 +1,15 @@
 import React from 'react';
 import { FaGithub, FaShareAlt } from 'react-icons/fa';
-import Project1Img from '../Components/assets/blog.png';
-import Project2Img from '../Components/assets/vendor-hub.png';
-import Project3Img from '../Components/assets/portfolio.png';
-import Project4Img from '../Components/assets/shopbelle.png';
+import Project1Img from '../Components/assets/1.png';
+import Project2Img from '../Components/assets/2.png';
+import Project3Img from '../Components/assets/3.png';
+import Project4Img from '../Components/assets/4.png';
 import Project5Img from '../Components/assets/portfolio-site.png';
-import Project6Img from '../Components/assets/sign-up-form.png';
+import Project6Img from '../Components/assets/5.png';
 import Project7Img from '../Components/assets/algorithmia.png';
 import Project8Img from '../Components/assets/nextgentech.png';
-import Project9Img from '../Components/assets/twitter-clone.png';
-import Project10Img from '../Components/assets/tell-a-joke-api.png';
+import Project9Img from '../Components/assets/6.png';
+import Project10Img from '../Components/assets/7.png';
 
 const Portfolio = () => {
   return (
@@ -26,22 +26,22 @@ const Portfolio = () => {
           <div className="w-full lg:w-1/2">
             <img 
               src={Project1Img} 
-              alt="blog" 
+              alt="real estate" 
               className="w-full h-auto rounded-lg shadow-md object-cover md:ml-40" 
             />
           </div>
           
           {/* Project Details - Right */}
           <div className="w-full lg:w-1/2 mt-8 lg:mt-0 md:ml-20">
-            <h3 className="text-2xl text-center font-semibold mb-2">Blog App</h3>
+            <h3 className="text-2xl text-center font-semibold mb-2">Real Estate Website</h3>
             <p className="text-md mb-4 text-center">
-               A simple blog app website that shows<br/> lets users read different blog posts <br/>on different genres and users can like, <br/>comment on any blog post.
+              Modern real estate UI with clean <br/>property cards, image galleries, and <br/>intuitive filtering for optimal user experience.
             </p>
             <p className="text-md font-bold mb-4 text-center ">
-              Bootstrap, Django
+              React
             </p>
             <div className="flex justify-center  space-x-6">
-              <a 
+              {/* <a 
                 href="https://github.com/masha-a-m/simple-blog-app" 
                 target="_blank" 
                 rel="noopener noreferrer" 
@@ -49,9 +49,9 @@ const Portfolio = () => {
               >
                 <FaGithub />
                 <span>Code</span>
-              </a>
+              </a> */}
               <a 
-                href="https://afternoon-headland-76932-22b7bcf4c9f9.herokuapp.com/" 
+                href="http://realhomes.infinityfree.me/property/home-in-merrick-way/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="flex items-center space-x-2 text-green-600 hover:text-green-800 transition-colors duration-300"
@@ -70,23 +70,22 @@ const Portfolio = () => {
           <div className="w-full ">
             <img 
               src={Project2Img} 
-              alt="vendor-hub" 
+              alt="apex digital" 
               className="w-full h-auto rounded-lg shadow-md object-cover" 
             />
           </div>
           
           {/* Project Details - Left */}
           <div className="w-full lg:w-1/2 mt-8 md:ml-40">
-            <h3 className="text-2xl font-semibold mb-2">Vendor Hub</h3>
+            <h3 className="text-2xl font-semibold mb-2">Apex Digitals</h3>
             <p className="text-md mb-4 text-center ">
-              Vendor Hub is a site that brings <br/> together different vendors in a school<br/> together. With this
-              app, students can find their preferred vendor easily.
+              A sleek digital agency website<br/> showcasing services, client success stories, <br/> and seamless contact integration to attract <br/> new business.
             </p>
             <p className="text-md font-bold mb-4 text-center ">
-              HTML, CSS
+              HTML, CSS, JS
             </p>
             <div className="flex justify-center space-x-6">
-              <a 
+              {/* <a 
                 href="https://github.com/masha-a-m/VendorHub" 
                 target="_blank" 
                 rel="noopener noreferrer" 
@@ -94,9 +93,9 @@ const Portfolio = () => {
               >
                 <FaGithub />
                 <span>Code</span>
-              </a>
+              </a> */}
               <a 
-                href="https://vendorrhub.netlify.app/" 
+                href="http://apexdigital.infinityfree.me/?i=1" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="flex items-center space-x-2 text-green-600 hover:text-green-800 transition-colors duration-300"
@@ -115,22 +114,22 @@ const Portfolio = () => {
           <div className="w-full lg:w-1/2">
             <img 
               src={Project3Img} 
-              alt="Portfolio" 
+              alt="ecommerce site" 
               className="w-full h-auto rounded-lg shadow-md object-cover md:ml-40" 
             />
           </div>
           
           {/* Project Details - Right */}
           <div className="w-full lg:w-1/2 mt-8 lg:mt-0  md:ml-20">
-            <h3 className="text-2xl text-center font-semibold mb-2">Portfolio</h3>
+            <h3 className="text-2xl text-center font-semibold mb-2">CommerceCore</h3>
             <p className="text-md mb-4 text-center">
-               A simple portfolio website that shows<br/> different projects that have been worked <br/>on, including an about me section and a<br/> contact section plus a footer.
+               Ecommerce platform with product filters,<br/> wishlists, promo codes, <br/> and real-time inventory updates.
             </p>
             <p className="text-md font-bold mb-4 text-center ">
-              Tailwind
+              React, Tailwind
             </p>
             <div className="flex justify-center space-x-6">
-              <a 
+              {/* <a 
                 href="https://github.com/masha-a-m/assignment-aca" 
                 target="_blank" 
                 rel="noopener noreferrer" 
@@ -138,9 +137,9 @@ const Portfolio = () => {
               >
                 <FaGithub />
                 <span>Code</span>
-              </a>
+              </a> */}
               <a 
-                href="https://assignment-aca.vercel.app" 
+                href="https://commercecore-pymnc59.public.builtwithrocket.new/homepage" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="flex items-center space-x-2 text-green-600 hover:text-green-800 transition-colors duration-300"
@@ -153,28 +152,28 @@ const Portfolio = () => {
         </div>
 
         {/* Project 4 */}
-        <div className="flex flex-col lg:flex-row items-center justify-center mx-auto lg:justify-between mb-40">
+        <div className="flex flex-col lg:flex-row-reverse items-center justify-center mx-auto lg:justify-between mb-40">
           
           {/* Project Image - Left */}
-          <div className="w-full lg:w-1/2">
+          <div className="w-full lg:w-1/2 md:mr-60">
             <img 
               src={Project4Img} 
-              alt="shopbelle" 
-              className="w-full h-auto rounded-lg shadow-md object-cover md:ml-40" 
+              alt="social connect" 
+              className="w-full h-auto rounded-lg shadow-md object-cover md:ml-20" 
             />
           </div>
           
           {/* Project Details - Right */}
           <div className="w-full lg:w-1/2 mt-8 lg:mt-0  md:ml-20">
-            <h3 className="text-2xl text-center font-semibold mb-2">ShopBelle</h3>
+            <h3 className="text-2xl text-center font-semibold mb-2">SocialConnect</h3>
             <p className="text-md mb-4 text-center">
-               ShopBelle is an E-commerce site that allows<br/> users to shop and buy different products<br/> available in the site.
+               A minimalist social app for <br/>authentic connections, blending <br/>private messaging with interest-based communities
             </p>
             <p className="text-md font-bold mb-4 text-center ">
-              Tailwind
+              React, JavaScript
             </p>
             <div className="flex justify-center  space-x-6">
-              <a 
+              {/* <a 
                 href="https://github.com/masha-a-m/ShopBelle" 
                 target="_blank" 
                 rel="noopener noreferrer" 
@@ -182,9 +181,9 @@ const Portfolio = () => {
               >
                 <FaGithub />
                 <span>Code</span>
-              </a>
+              </a> */}
               <a 
-                href="https://shop-belle.netlify.app" 
+                href="https://socialconnect-1zbjs35.public.builtwithrocket.new/landing-page" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="flex items-center space-x-2 text-green-600 hover:text-green-800 transition-colors duration-300"
@@ -197,10 +196,10 @@ const Portfolio = () => {
         </div>
 
          {/* Project 5 */}
-        <div className="flex flex-col md:flex-row-reverse items-center justify-center mb-40 md:mr-20">
+        <div className="flex flex-col md:flex-row items-center justify-center mb-40 md:mr-20">
           
           {/* Project Image - Right */}
-          <div className="w-full ">
+          <div className="w-full md:ml-40">
             <img 
               src={Project5Img} 
               alt="portfolio-site" 
@@ -209,10 +208,10 @@ const Portfolio = () => {
           </div>
           
           {/* Project Details - Left */}
-          <div className="w-full lg:w-1/2 mt-8 md:ml-40">
+          <div className="w-full lg:w-1/2 mt-8 md:ml-40 md:mr-40">
             <h3 className="text-2xl font-semibold mb-2">Portfolio Site</h3>
             <p className="text-md mb-4 text-center ">
-              A portfolio website that showcases<br/> the landing page, projects page,<br/> an about me page and a contact page.
+              A portfolio website that showcases the landing page, projects page, an about me page and a contact page.
             </p>
             <p className="text-md font-bold mb-4 text-center ">
               Bootstrap, JavaScript
@@ -247,22 +246,22 @@ const Portfolio = () => {
           <div className="w-full ">
             <img 
               src={Project6Img} 
-              alt="sign-up-page" 
+              alt="blog website" 
               className="w-full h-auto rounded-lg shadow-md object-cover" 
             />
           </div>
           
           {/* Project Details - Left */}
           <div className="w-full lg:w-1/2 mt-8 md:ml-40">
-            <h3 className="text-2xl font-semibold mb-2">Sign Up Page</h3>
+            <h3 className="text-2xl font-semibold mb-2">BlogCraft</h3>
             <p className="text-md mb-4 text-center ">
-              A simple sign up page <br/>that allows users to input their name,<br/> email and phone number.
+              Built for storytellers – intuitive editor, <br/>scheduled posts, and audience analytics <br/>in one place.
             </p>
             <p className="text-md font-bold mb-4 text-center ">
-              Tailwind CSS
+              React, Tailwind CSS
             </p>
             <div className="flex justify-center space-x-6">
-              <a 
+              {/* <a 
                 href="https://github.com/masha-a-m/aca-sign-up-form" 
                 target="_blank" 
                 rel="noopener noreferrer" 
@@ -270,9 +269,9 @@ const Portfolio = () => {
               >
                 <FaGithub />
                 <span>Code</span>
-              </a>
+              </a> */}
               <a 
-                href="https://aca-sign-up-form.vercel.app/" 
+                href="https://blogcraft-kscy260.public.builtwithrocket.new/landing-page" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="flex items-center space-x-2 text-green-600 hover:text-green-800 transition-colors duration-300"
@@ -306,7 +305,7 @@ const Portfolio = () => {
               HTML, CSS, JavaScript
             </p>
             <div className="flex justify-center  space-x-6">
-              <a 
+              {/* <a 
                 href="https://github.com/masha-a-m/ALX-SE-Algorithmia.github.io" 
                 target="_blank" 
                 rel="noopener noreferrer" 
@@ -314,7 +313,7 @@ const Portfolio = () => {
               >
                 <FaGithub />
                 <span>Code</span>
-              </a>
+              </a> */}
               <a 
                 href="https://alx-se-algorithmia.github.io" 
                 target="_blank" 
@@ -386,15 +385,15 @@ const Portfolio = () => {
           
           {/* Project Details - Right */}
           <div className="w-full lg:w-1/2 mt-8 lg:mt-0  md:ml-20">
-            <h3 className="text-2xl text-center font-semibold mb-2">Twitter Clone</h3>
+            <h3 className="text-2xl text-center font-semibold mb-2">LogiTrack Pro</h3>
             <p className="text-md mb-4 text-center">
-               Clone of Twitter homepage showing the<br/> sidebar elements, the main tweet<br/> section, and a list of random <br/>tweets.
+               Real-time shipment tracking with <br/> automated alerts, route optimization,<br/> and proof-of-delivery verification.
             </p>
             <p className="text-md font-bold mb-4 text-center ">
-              Tailwind CSS
+              React, Bootstrap
             </p>
             <div className="flex justify-center  space-x-6">
-              <a 
+              {/* <a 
                 href="https://github.com/masha-a-m/ACA-Twitter-Clone" 
                 target="_blank" 
                 rel="noopener noreferrer" 
@@ -402,9 +401,9 @@ const Portfolio = () => {
               >
                 <FaGithub />
                 <span>Code</span>
-              </a>
+              </a> */}
               <a 
-                href="https://masha-a-m.github.io/ACA-Twitter-Clone" 
+                href="https://logitrack-pro-ko2ja34.public.builtwithrocket.new/pages/homepage" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="flex items-center space-x-2 text-green-600 hover:text-green-800 transition-colors duration-300"
@@ -423,22 +422,22 @@ const Portfolio = () => {
           <div className="w-full ">
             <img 
               src={Project10Img} 
-              alt="joke-api" 
+              alt="pure glow" 
               className="w-full h-auto rounded-lg shadow-md object-cover" 
             />
           </div>
           
           {/* Project Details - Left */}
           <div className="w-full lg:w-1/2 mt-8 md:ml-40">
-            <h3 className="text-2xl font-semibold mb-2">Joke API</h3>
+            <h3 className="text-2xl font-semibold mb-2">Pure Glow</h3>
             <p className="text-md mb-4 text-center ">
-               Users can click on the tell a joke button, <br/>to create random jokes and also <br/>click on the tagline button to show the <br/>tagline of that joke.
+               Clean beauty marketplace with <br/> ingredient transparency, personalized<br/> routines, and video reviews.
             </p>
             <p className="text-md font-bold mb-4 text-center ">
-              HTML, CSS, JavaScript
+              React, Tailwind
             </p>
             <div className="flex justify-center space-x-6">
-              <a 
+              {/* <a 
                 href="https://github.com/masha-a-m/api-assignment" 
                 target="_blank" 
                 rel="noopener noreferrer" 
@@ -446,9 +445,9 @@ const Portfolio = () => {
               >
                 <FaGithub />
                 <span>Code</span>
-              </a>
+              </a> */}
               <a 
-                href="https://masha-a-m.github.io/api-assignment" 
+                href="http://pureglow.infy.uk/wp/?i=2" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="flex items-center space-x-2 text-green-600 hover:text-green-800 transition-colors duration-300"
