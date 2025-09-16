@@ -72,22 +72,22 @@ const About = () => {
           and Firebase, Supabase for authentication.
         </p>
 
-        <h2 className="text-2xl font-semibold border-l-4 border-[#e74c3c] pl-4 mb-4 mt-20">How I Build Your Website</h2>
-        <ul className="list-disc list-inside space-y-2 text-gray-700 max-w-2xl mx-auto">
+        <h2 className="text-2xl font-semibold border-l-4 border-[#e74c3c] pl-4 text-center mb-4 mt-20">How I Build Your Website</h2>
+        <ul className="list-disc list-inside space-y-2 text-gray-700 max-w-2xl text-center mx-auto">
           <li><strong>Consultation:</strong> We start with a call to understand your goals and audience.</li>
-          <li><strong>Frontend Development:</strong>Built modern technologies including HTML5, CSS3, JavaScript (ES6+), and React.js for interactive user experiences.</li>
-          <li><strong>Backend Integration:</strong>Implement authentication, database systems, and APIs using Firebase, Supabase, or MySQL for functionality.</li>
+          <li><strong>Frontend Development:</strong> Built modern technologies including HTML5, CSS3, JavaScript (ES6+), and React.js for interactive user experiences.</li>
+          <li><strong>Backend Integration:</strong> Implement authentication, database systems, and APIs using Firebase, Supabase, or MySQL for functionality.</li>
           <li><strong>Handover:</strong> You get full access, documentation, and optional training to manage your site confidently.</li>
         </ul>
       </section>
 
           {/* Services & Pricing */}
-          <section class="px-8 pb-16 max-w-5xl mx-auto py-16">
-          <h2 class="text-2xl font-semibold border-l-4 border-[#e74c3c] pl-10 mb-8 ml-24">Pricing & Packages</h2>
+          <section class="pb-16 max-w-5xl mx-auto text-center py-16">
+          <h2 class="text-2xl font-semibold border-l-4 text-center border-[#e74c3c] pl-10 mb-8">Pricing & Packages</h2>
 
 
           {/* New Ultra-Basic Tier Row */}
-          <div className="flex flex-col md:flex-row gap-8 mb-16">
+          <div className="flex flex-col md:flex-row gap-8 text-center mb-16">
             {/* Landing Page */}
             <div className="bg-white p-6 rounded shadow flex-1">
               <h3 className="text-xl font-bold text-[#b18165] mb-2">Single Landing Page</h3>
