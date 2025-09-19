@@ -26,7 +26,7 @@ const Portfolio = () => {
           <div className="w-full lg:w-1/2">
             <img 
               src={Project1Img} 
-              alt="real estate" 
+              alt="real estate website" 
               className="w-full h-auto rounded-lg shadow-md object-cover md:ml-40" 
             />
           </div>
@@ -139,7 +139,7 @@ const Portfolio = () => {
                 <span>Code</span>
               </a> */}
               <a 
-                href="https://commercecore-pymnc59.public.builtwithrocket.new/homepage" 
+                // href="https://commercecore-pymnc59.public.builtwithrocket.new/homepage" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="flex items-center space-x-2 text-green-600 hover:text-green-800 transition-colors duration-300"
@@ -183,7 +183,7 @@ const Portfolio = () => {
                 <span>Code</span>
               </a> */}
               <a 
-                href="https://socialconnect-1zbjs35.public.builtwithrocket.new/landing-page" 
+                // href="https://socialconnect-1zbjs35.public.builtwithrocket.new/landing-page" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="flex items-center space-x-2 text-green-600 hover:text-green-800 transition-colors duration-300"
@@ -217,7 +217,7 @@ const Portfolio = () => {
               Bootstrap, JavaScript
             </p>
             <div className="flex justify-center space-x-6">
-              <a 
+              {/* <a 
                 href="https://github.com/masha-a-m/hertechtrail_cohort7_project" 
                 target="_blank" 
                 rel="noopener noreferrer" 
@@ -225,7 +225,7 @@ const Portfolio = () => {
               >
                 <FaGithub />
                 <span>Code</span>
-              </a>
+              </a> */}
               <a 
                 href="https://maryam-garba-hertechtrail-project.netlify.app" 
                 target="_blank" 
@@ -271,7 +271,7 @@ const Portfolio = () => {
                 <span>Code</span>
               </a> */}
               <a 
-                href="https://blogcraft-kscy260.public.builtwithrocket.new/landing-page" 
+                // href="https://blogcraft-kscy260.public.builtwithrocket.new/landing-page" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="flex items-center space-x-2 text-green-600 hover:text-green-800 transition-colors duration-300"
@@ -349,7 +349,7 @@ const Portfolio = () => {
               Bootstrap, JavaScript
             </p>
             <div className="flex justify-center space-x-6">
-              <a 
+              {/* <a 
                 href="https://github.com/FevenSeyfu/NextGenTech" 
                 target="_blank" 
                 rel="noopener noreferrer" 
@@ -357,7 +357,7 @@ const Portfolio = () => {
               >
                 <FaGithub />
                 <span>Code</span>
-              </a>
+              </a> */}
               <a 
                 href="https://nextgen-tech.netlify.app" 
                 target="_blank" 
@@ -378,7 +378,7 @@ const Portfolio = () => {
           <div className="w-full lg:w-1/2">
             <img 
               src={Project9Img} 
-              alt="twitter-clone" 
+              alt="tracking website" 
               className="w-full h-auto rounded-lg shadow-md object-cover md:ml-40" 
             />
           </div>
@@ -403,7 +403,7 @@ const Portfolio = () => {
                 <span>Code</span>
               </a> */}
               <a 
-                href="https://logitrack-pro-ko2ja34.public.builtwithrocket.new/pages/homepage" 
+                // href="https://logitrack-pro-ko2ja34.public.builtwithrocket.new/pages/homepage" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="flex items-center space-x-2 text-green-600 hover:text-green-800 transition-colors duration-300"

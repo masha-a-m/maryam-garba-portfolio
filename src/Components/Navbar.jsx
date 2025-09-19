@@ -106,7 +106,7 @@ const Navbar = () => {
                     UI/UX Services
                   </a>
                   <a
-                    href="http://whisperingcodes.infinityfree.me/wordpress-services"
+                    href="http://whisperingcodes.com/wordpress-services"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
